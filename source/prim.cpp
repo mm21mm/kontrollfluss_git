@@ -8,9 +8,9 @@ int main() {
     std::cin >> n;
 
     if (n<2){
-	    std::cout << n << " ist keine Primzhalz." << std::endl}
+	    std::cout << n << " ist keine Primzhalz." << std::endl;}
     return 0;
-}
+
 bool istPrim = true;
 for (int i = 2; i * i <= n; i++){
 if(n%i == 0){istPrim = false;

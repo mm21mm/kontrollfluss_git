@@ -1,0 +1,7 @@
+/home/mishals/physics441-sose25-c-vorkurs/exercises/03_kontrollfluss_git/build/CMakeFiles/vergleich.dir
+/home/mishals/physics441-sose25-c-vorkurs/exercises/03_kontrollfluss_git/build/CMakeFiles/multitabelle.dir
+/home/mishals/physics441-sose25-c-vorkurs/exercises/03_kontrollfluss_git/build/CMakeFiles/prim.dir
+/home/mishals/physics441-sose25-c-vorkurs/exercises/03_kontrollfluss_git/build/CMakeFiles/wurzel.dir
+/home/mishals/physics441-sose25-c-vorkurs/exercises/03_kontrollfluss_git/build/CMakeFiles/taschenrechner.dir
+/home/mishals/physics441-sose25-c-vorkurs/exercises/03_kontrollfluss_git/build/CMakeFiles/edit_cache.dir
+/home/mishals/physics441-sose25-c-vorkurs/exercises/03_kontrollfluss_git/build/CMakeFiles/rebuild_cache.dir

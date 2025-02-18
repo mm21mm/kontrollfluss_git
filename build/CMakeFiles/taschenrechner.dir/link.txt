@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/taschenrechner.dir/taschenrechner.cpp.o -o taschenrechner 

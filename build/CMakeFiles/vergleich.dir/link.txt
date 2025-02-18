@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/vergleich.dir/vergleich.cpp.o -o vergleich 

@@ -10,13 +10,13 @@ int main() {
     //Erste Teilaufgabe: Ueberpruefe ob die Zahl groessen, kleiner oder gleich 0 ist. Gebt dazu das Ergebnis aus.
      if (zahl > 0){
 	     std::cout << "Die Zahl ist groesser als 0." <<std::endl; 
-     } else if (zahl < 0){
+     }
+     else if (zahl < 0){
 	     std::cout<< "Die Zahl ist kleiner als 0." << std::endl;
-         } else {
+         }
+     else {
 	         std::cout << "Die Zahl ist gleich 0." << std::endl;
 	     }
-}
-
 
 
     //Zweite Teilaufgabe: Bestimmt ob die Zahl gerade ist
@@ -25,7 +25,7 @@ int main() {
         } else {
 	        std::cout << "Die Zahl ist ungerade." << std::endl;
 	    }
-}
 
-    return 0;
+
+ return 0;
 }

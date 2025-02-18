@@ -60,7 +60,7 @@ while(1){
 		                                                                                                                                                                                                                                                                                                                                                                      printf("Ungültige Eingabe! Bitte wählen Sie eine Zahl zwischen 1 und 5.\n");
 		                                                                                                                                                                                                                                                                                                                                                                              }
 		                                                                                                                                                                                                                                                                                                                                                                                  }
-}
+
 
     return 0;
 }
