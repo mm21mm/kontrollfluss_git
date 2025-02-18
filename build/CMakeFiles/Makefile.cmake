@@ -49,4 +49,6 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/prim.dir/DependInfo.cmake"
   "CMakeFiles/wurzel.dir/DependInfo.cmake"
   "CMakeFiles/taschenrechner.dir/DependInfo.cmake"
+  "CMakeFiles/math.dir/DependInfo.cmake"
+  "CMakeFiles/csv.dir/DependInfo.cmake"
   )

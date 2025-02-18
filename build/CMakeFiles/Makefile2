@@ -68,6 +68,8 @@ all: CMakeFiles/multitabelle.dir/all
 all: CMakeFiles/prim.dir/all
 all: CMakeFiles/wurzel.dir/all
 all: CMakeFiles/taschenrechner.dir/all
+all: CMakeFiles/math.dir/all
+all: CMakeFiles/csv.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -80,6 +82,8 @@ clean: CMakeFiles/multitabelle.dir/clean
 clean: CMakeFiles/prim.dir/clean
 clean: CMakeFiles/wurzel.dir/clean
 clean: CMakeFiles/taschenrechner.dir/clean
+clean: CMakeFiles/math.dir/clean
+clean: CMakeFiles/csv.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -89,7 +93,7 @@ clean: CMakeFiles/taschenrechner.dir/clean
 CMakeFiles/vergleich.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/vergleich.dir/build.make CMakeFiles/vergleich.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/vergleich.dir/build.make CMakeFiles/vergleich.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/mishals/physics441-sose25-c-vorkurs/exercises/03_kontrollfluss_git/build/CMakeFiles --progress-num=7,8 "Built target vergleich"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/mishals/physics441-sose25-c-vorkurs/exercises/03_kontrollfluss_git/build/CMakeFiles --progress-num=11,12 "Built target vergleich"
 .PHONY : CMakeFiles/vergleich.dir/all
 
 # Build rule for subdir invocation for target.
@@ -115,7 +119,7 @@ CMakeFiles/vergleich.dir/clean:
 CMakeFiles/multitabelle.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/multitabelle.dir/build.make CMakeFiles/multitabelle.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/multitabelle.dir/build.make CMakeFiles/multitabelle.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/mishals/physics441-sose25-c-vorkurs/exercises/03_kontrollfluss_git/build/CMakeFiles --progress-num=1,2 "Built target multitabelle"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/mishals/physics441-sose25-c-vorkurs/exercises/03_kontrollfluss_git/build/CMakeFiles --progress-num=5,6 "Built target multitabelle"
 .PHONY : CMakeFiles/multitabelle.dir/all
 
 # Build rule for subdir invocation for target.
@@ -141,7 +145,7 @@ CMakeFiles/multitabelle.dir/clean:
 CMakeFiles/prim.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/prim.dir/build.make CMakeFiles/prim.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/prim.dir/build.make CMakeFiles/prim.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/mishals/physics441-sose25-c-vorkurs/exercises/03_kontrollfluss_git/build/CMakeFiles --progress-num=3,4 "Built target prim"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/mishals/physics441-sose25-c-vorkurs/exercises/03_kontrollfluss_git/build/CMakeFiles --progress-num=7,8 "Built target prim"
 .PHONY : CMakeFiles/prim.dir/all
 
 # Build rule for subdir invocation for target.
@@ -167,7 +171,7 @@ CMakeFiles/prim.dir/clean:
 CMakeFiles/wurzel.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/wurzel.dir/build.make CMakeFiles/wurzel.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/wurzel.dir/build.make CMakeFiles/wurzel.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/mishals/physics441-sose25-c-vorkurs/exercises/03_kontrollfluss_git/build/CMakeFiles --progress-num=9,10 "Built target wurzel"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/mishals/physics441-sose25-c-vorkurs/exercises/03_kontrollfluss_git/build/CMakeFiles --progress-num=13,14 "Built target wurzel"
 .PHONY : CMakeFiles/wurzel.dir/all
 
 # Build rule for subdir invocation for target.
@@ -193,7 +197,7 @@ CMakeFiles/wurzel.dir/clean:
 CMakeFiles/taschenrechner.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/taschenrechner.dir/build.make CMakeFiles/taschenrechner.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/taschenrechner.dir/build.make CMakeFiles/taschenrechner.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/mishals/physics441-sose25-c-vorkurs/exercises/03_kontrollfluss_git/build/CMakeFiles --progress-num=5,6 "Built target taschenrechner"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/mishals/physics441-sose25-c-vorkurs/exercises/03_kontrollfluss_git/build/CMakeFiles --progress-num=9,10 "Built target taschenrechner"
 .PHONY : CMakeFiles/taschenrechner.dir/all
 
 # Build rule for subdir invocation for target.
@@ -211,6 +215,58 @@ taschenrechner: CMakeFiles/taschenrechner.dir/rule
 CMakeFiles/taschenrechner.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/taschenrechner.dir/build.make CMakeFiles/taschenrechner.dir/clean
 .PHONY : CMakeFiles/taschenrechner.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/math.dir
+
+# All Build rule for target.
+CMakeFiles/math.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/math.dir/build.make CMakeFiles/math.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/math.dir/build.make CMakeFiles/math.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/mishals/physics441-sose25-c-vorkurs/exercises/03_kontrollfluss_git/build/CMakeFiles --progress-num=3,4 "Built target math"
+.PHONY : CMakeFiles/math.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/math.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mishals/physics441-sose25-c-vorkurs/exercises/03_kontrollfluss_git/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/math.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mishals/physics441-sose25-c-vorkurs/exercises/03_kontrollfluss_git/build/CMakeFiles 0
+.PHONY : CMakeFiles/math.dir/rule
+
+# Convenience name for target.
+math: CMakeFiles/math.dir/rule
+.PHONY : math
+
+# clean rule for target.
+CMakeFiles/math.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/math.dir/build.make CMakeFiles/math.dir/clean
+.PHONY : CMakeFiles/math.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/csv.dir
+
+# All Build rule for target.
+CMakeFiles/csv.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/csv.dir/build.make CMakeFiles/csv.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/csv.dir/build.make CMakeFiles/csv.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/mishals/physics441-sose25-c-vorkurs/exercises/03_kontrollfluss_git/build/CMakeFiles --progress-num=1,2 "Built target csv"
+.PHONY : CMakeFiles/csv.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/csv.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mishals/physics441-sose25-c-vorkurs/exercises/03_kontrollfluss_git/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/csv.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mishals/physics441-sose25-c-vorkurs/exercises/03_kontrollfluss_git/build/CMakeFiles 0
+.PHONY : CMakeFiles/csv.dir/rule
+
+# Convenience name for target.
+csv: CMakeFiles/csv.dir/rule
+.PHONY : csv
+
+# clean rule for target.
+CMakeFiles/csv.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/csv.dir/build.make CMakeFiles/csv.dir/clean
+.PHONY : CMakeFiles/csv.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
