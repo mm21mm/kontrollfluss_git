@@ -10,7 +10,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.28.3/CMakeCCompiler.cmake"
   "CMakeFiles/3.28.3/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.28.3/CMakeSystem.cmake"
-  "/home/mishals/physics441-sose25-c-vorkurs/exercises/03_kontrollfluss_git/source/CMakeLists.txt"
+  "/home/mishals/physics441-sose25-c-vorkurs/exercises/03_kontrollfluss_git/05/source/CMakeLists.txt"
   "/usr/share/cmake-3.28/Modules/CMakeCInformation.cmake"
   "/usr/share/cmake-3.28/Modules/CMakeCXXInformation.cmake"
   "/usr/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake"
@@ -44,11 +44,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/vergleich.dir/DependInfo.cmake"
-  "CMakeFiles/multitabelle.dir/DependInfo.cmake"
-  "CMakeFiles/prim.dir/DependInfo.cmake"
-  "CMakeFiles/wurzel.dir/DependInfo.cmake"
-  "CMakeFiles/taschenrechner.dir/DependInfo.cmake"
-  "CMakeFiles/math1.dir/DependInfo.cmake"
-  "CMakeFiles/csv.dir/DependInfo.cmake"
+  "CMakeFiles/overload.dir/DependInfo.cmake"
+  "CMakeFiles/in_out.dir/DependInfo.cmake"
+  "CMakeFiles/integrate.dir/DependInfo.cmake"
   )

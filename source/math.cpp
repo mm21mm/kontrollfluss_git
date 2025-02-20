@@ -114,10 +114,16 @@ return fibonacci(n - 1) + fibonacci(n - 2);
 			    }
 			    			    
 			    
-
+void datei() {
+	    std::ifstream file("input/math.txt");
+	        if (!file) {
+			        std::cerr << "Fehler: Datei input/math.txt konnte nicht geöffnet werden." << std::endl;
+				        return 1;
+					    }
 
                                     int main() {
 			        calculator();
+                                datei();
                                 return 0;
                                 }
 

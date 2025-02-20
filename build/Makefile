@@ -182,17 +182,17 @@ taschenrechner/fast:
 .PHONY : taschenrechner/fast
 
 #=============================================================================
-# Target rules for targets named math
+# Target rules for targets named math1
 
 # Build rule for target.
-math: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 math
-.PHONY : math
+math1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 math1
+.PHONY : math1
 
 # fast build rule for target.
-math/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/math.dir/build.make CMakeFiles/math.dir/build
-.PHONY : math/fast
+math1/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/math1.dir/build.make CMakeFiles/math1.dir/build
+.PHONY : math1/fast
 
 #=============================================================================
 # Target rules for targets named csv
@@ -231,29 +231,29 @@ csv.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/csv.dir/build.make CMakeFiles/csv.dir/csv.cpp.s
 .PHONY : csv.cpp.s
 
-math.o: math.cpp.o
-.PHONY : math.o
+math1.o: math1.cpp.o
+.PHONY : math1.o
 
 # target to build an object file
-math.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/math.dir/build.make CMakeFiles/math.dir/math.cpp.o
-.PHONY : math.cpp.o
+math1.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/math1.dir/build.make CMakeFiles/math1.dir/math1.cpp.o
+.PHONY : math1.cpp.o
 
-math.i: math.cpp.i
-.PHONY : math.i
+math1.i: math1.cpp.i
+.PHONY : math1.i
 
 # target to preprocess a source file
-math.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/math.dir/build.make CMakeFiles/math.dir/math.cpp.i
-.PHONY : math.cpp.i
+math1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/math1.dir/build.make CMakeFiles/math1.dir/math1.cpp.i
+.PHONY : math1.cpp.i
 
-math.s: math.cpp.s
-.PHONY : math.s
+math1.s: math1.cpp.s
+.PHONY : math1.s
 
 # target to generate assembly for a file
-math.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/math.dir/build.make CMakeFiles/math.dir/math.cpp.s
-.PHONY : math.cpp.s
+math1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/math1.dir/build.make CMakeFiles/math1.dir/math1.cpp.s
+.PHONY : math1.cpp.s
 
 multitabelle.o: multitabelle.cpp.o
 .PHONY : multitabelle.o
@@ -384,7 +384,7 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... csv"
-	@echo "... math"
+	@echo "... math1"
 	@echo "... multitabelle"
 	@echo "... prim"
 	@echo "... taschenrechner"
@@ -393,9 +393,9 @@ help:
 	@echo "... csv.o"
 	@echo "... csv.i"
 	@echo "... csv.s"
-	@echo "... math.o"
-	@echo "... math.i"
-	@echo "... math.s"
+	@echo "... math1.o"
+	@echo "... math1.i"
+	@echo "... math1.s"
 	@echo "... multitabelle.o"
 	@echo "... multitabelle.i"
 	@echo "... multitabelle.s"
